@@ -1,0 +1,46 @@
+package exercicio8;
+
+private double salario;
+private String nome;
+
+public class Bonificacao {
+	double valorBonificacao = 0;
+	private String nome;
+	
+		if(this.salario <= 1000) {
+			valorBonificacao = (this.getSalario() * 0.2);
+			System.out.println("Bonus: " + valorBonificacao);
+		}else if (this.salario > 1000 && this.salario <= 2000) {
+			valorBonificacao = (this.getSalario() * 0.1);
+			System.out.println("Bonus: " + valorBonificacao);
+			
+		}else if(this.slario >= 2000) {
+			valorBonificacao = (this.valorBonificacao * (-0.1));
+			System.out.println("Desconto: " + valorBonificacao);
+		}
+		System.out.printf("Salario liquido: "+(this.salario + valorBonificacao));
+		System.out.println(" ");
+		
+}
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;		
+	}
+	public double getSalario() {
+		return valorBonificacao;
+	}
+	public void setSalario(double salario) {
+		this.valorBonificacao = salario;
+		
+		
+		}
+	
+		
+	}
+	}
+
+
+
