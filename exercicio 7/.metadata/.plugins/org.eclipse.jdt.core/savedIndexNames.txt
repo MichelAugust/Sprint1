@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\miche\OneDrive\Área de Trabalho\Compass Sprint 1\exercicio 7\.metadata\.plugins\org.eclipse.jdt.core
+4123552910.index
+53258046.index
+1865797976.index
